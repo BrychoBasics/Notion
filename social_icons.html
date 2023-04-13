@@ -83,8 +83,8 @@
       color: #c8232c;
     }
 
-    .telegram:hover {
-      color: #2AABEE;
+    .streamlabs:hover {
+      color: #e7be40;
     }
 
     .social {
@@ -126,23 +126,18 @@
       </div>
       <!-- End discord Icon -->
 
-      <!-- Start tiktok Icon -->
-      <div id="tiktok" onclick="navigate(this.id)" class="social">
-        <span class="icon tiktok"><i class="fab fa-tiktok"></i></span>
-      </div>
-      <!-- End tiktok Icon -->
-      
       <!-- Start reddit Icon -->
       <div id="reddit" onclick="navigate(this.id)" class="social">
         <span class="icon reddit"><i class="fab fa-reddit"></i></span>
       </div>
       <!-- End reddit Icon -->
-
-      <!-- Start email Icon -->
-      <div id="email" onclick="navigate(this.id)" class="social">
-        <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
+      
+      <!-- Start streamlabs Icon -->
+      <div id="streamlabs" onclick="navigate(this.id)" class="social">
+        <span class="icon streamlabs"><i class="fa-solid fa-coins"></i></span>
       </div>
-      <!-- End email Icon -->
+      <!-- End streamlabs Icon -->
+
 
 
     </div>
@@ -184,6 +179,9 @@
         }
         else if (id === "discord") {
           window.open("https://discord.gg/fFyp292WCq", '_blank').focus(); //Add the url to your telegram account
+        }
+        else if (id === "streamlabs") {
+          window.open("https://streamlabs.com/brychobasics/tip", '_blank').focus(); //Add the url to your telegram account
         }
       }
 
