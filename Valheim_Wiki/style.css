@@ -5,7 +5,7 @@
    -webkit-border-radius: 30x;
    -moz-border-radius: 30px;
    border-radius: 30px;
-   transition: 0.4s ease-in-out;
+   transition: 0.15s ease-in-out;
    filter: saturate(70%);
    filter: drop-shadow: (5px 5px 10px #666)
 }
