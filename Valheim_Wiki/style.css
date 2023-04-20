@@ -6,8 +6,11 @@
    -moz-border-radius: 30px;
    border-radius: 30px;
    transition: 0.15s ease-in-out;
+   filter: grayscale(25%);
+   transition: filter 2s;
 }
     #gallery img:hover {
-        transform: translateY(-5px) scale(1.02)
+        transform: translateY(-5px) scale(1.02);
+        filter:none;
         
 }
