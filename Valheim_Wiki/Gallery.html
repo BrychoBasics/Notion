@@ -31,13 +31,7 @@
   opacity:0;
 }
 
-   @media (max-width: 400px) {
-   #gallery {
-    -moz-column-count:    1;
-    -webkit-column-count: 1;
-    column-count:         1;
-   }
-}
+
     #gallery img {
    width: 100% !important;
    height: auto !important;
@@ -46,11 +40,20 @@
    -moz-border-radius: 30px;
    border-radius: 30px;
 }
+    
+       @media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+    
   </style>
 </head>
 <body>
 <div id="gallery">
-  Test
+  
   <a href="">
     <img src="placeholder.png">
       </a>
@@ -58,6 +61,10 @@
    <img src="placeholder.png">
    <img src="placeholder.png">
    <img src="placeholder.png">
+  <img src="placeholder.png">
+  <img src="placeholder.png">
+  <img src="placeholder.png">
+  <img src="placeholder.png">
   </div>
  
  </body>
