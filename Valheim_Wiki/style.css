@@ -8,7 +8,7 @@
    transition: 0.15s ease-in-out;
 }
     #gallery img:hover {
-        transform: translateY(-3px) scale(1.1);
+        transform: translateY(-3px) scale(1.02);
         filter: brightness(120%);
         
 }
