@@ -16,9 +16,9 @@
    -webkit-border-radius: 30x;
    -moz-border-radius: 30px;
    border-radius: 30px;
-   transition: 0.15s ease-in-out;
-   filter: grayscale(25%);
-   transition: filter 2s;
+   transition: 0.4s ease-in-out;
+   filter: grayscale(30%);
+   transition: filter .4s;
    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06)
 }
     #gallery img:hover {
