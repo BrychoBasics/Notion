@@ -6,13 +6,13 @@
    -moz-border-radius: 30px;
    border-radius: 30px;
    transition: 0.4s ease-in-out;
-   filter: grayscale(30%);
+   filter: saturate(70%);
    transition: filter .4s;
-   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06)
+   filter: drop-shadow: (5px 5px 10px #666)
 }
     #gallery img:hover {
         transform: translateY(-5px) scale(1.01);
-        filter:none;
+        filter: saturate(100%);
         
 }
 
