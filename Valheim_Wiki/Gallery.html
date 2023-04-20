@@ -31,7 +31,13 @@
   opacity:0;
 }
 
-    
+   @media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
     #gallery img {
    width: 100% !important;
    height: auto !important;
@@ -44,6 +50,7 @@
 </head>
 <body>
 <div id="gallery">
+  Test
   <a href="">
     <img src="placeholder.png">
       </a>
