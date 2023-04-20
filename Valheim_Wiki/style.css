@@ -22,7 +22,7 @@
    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06)
 }
     #gallery img:hover {
-        transform: translateY(-5px) scale(1.02);
+        transform: translateY(-5px) scale(1.01);
         filter:none;
         
 }
