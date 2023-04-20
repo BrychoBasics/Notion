@@ -1,0 +1,8 @@
+    #gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:15px; /* to match column gap */
+   -webkit-border-radius: 30x;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+}
