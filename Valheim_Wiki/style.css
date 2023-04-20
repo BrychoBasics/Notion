@@ -8,6 +8,6 @@
    transition: 0.15s ease-in-out;
 }
     #gallery img:hover {
-        transform: translateY(-10px) scale(1.02)
+        transform: translateY(-5px) scale(1.02)
         
 }
