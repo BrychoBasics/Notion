@@ -5,4 +5,9 @@
    -webkit-border-radius: 30x;
    -moz-border-radius: 30px;
    border-radius: 30px;
+   transition: 0.15s ease-in-out;
+}
+    #gallery img:hover {
+        transform: translateY(-10px) scale(1.02)
+        
 }
