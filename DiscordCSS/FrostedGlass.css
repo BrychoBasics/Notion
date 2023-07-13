@@ -39,13 +39,13 @@
 
 .theme-dark {
   --header-primary: #fff;
-  --header-secondary: #bbb;
+  --header-secondary: #fff;
   --text-normal: #fff;
-  --text-default: #ddd;
-  --text-muted: #aaa;
+  --text-default: #fff;
+  --text-muted: #fff;
   --text-link: #00b0f4;
   --channels-default: #ddd;
-  --interactive-normal: #bbb;
+  --interactive-normal: #fff;
   --interactive-hover: #eee;
   --interactive-active: #fff;
   --interactive-muted: #777;
